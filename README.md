@@ -25,7 +25,7 @@ It allows following integer operations(in the parenthesis, the corresponding fun
 val a ="15" ;
 val a_big = bigstruct.str2bi(a);
 ```
-4. Use any of the operations given in [Operations supported]() like this:
+4. Use any of the operations given in [Operations supported](https://github.com/ankitshubham97/SML_BigInteger/blob/master/README.md#operations-supported) like this:
 ```bash
 val c_big = bigstruct.add(a_big,b_big);
 ```
@@ -37,7 +37,7 @@ val c = bigstruct.bi2str(c_big);
 ```
 
 ## Format of the input
-All the functions take two biginteger as parameters. `a $ b` is equivalent to `biginteger.operation(a,b)` where `operation` is any of the operations given in [Operations supported]() and `$` is the symbol of `operation`. Note that `a` and `b` are  of biginteger type. For example, to do `a - b`, do `biginteger.sub(a,b)`
+All the functions take two biginteger as parameters. `a $ b` is equivalent to `biginteger.operation(a,b)` where `operation` is any of the operations given in [Operations supported](https://github.com/ankitshubham97/SML_BigInteger/blob/master/README.md#operations-supported) and `$` is the symbol of `operation`. Note that `a` and `b` are  of biginteger type. For example, to do `a - b`, do `biginteger.sub(a,b)`
 
 ## Examples
-All the examples are [here](https://github.com/ankitshubham97/SML_BigInteger/tree/master/examples)
+All the examples are [here](https://github.com/ankitshubham97/SML_BigInteger/tree/master/examples).
